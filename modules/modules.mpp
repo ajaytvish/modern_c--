@@ -1,0 +1,16 @@
+    // marks start of a module
+module;
+    // we can include preprocessor directives only in this section
+import <cassert> 
+    // namespaces that will be exported from this .mpp file
+export module math_modules;
+    // include the headers
+import <iostream>
+namespace math_modules {
+    // functions need to be declared as export 
+    export int add(int x, int y)
+    {
+        cout << "input values to add are : " << x << "&" << y;
+        return x+y;
+    }
+}
