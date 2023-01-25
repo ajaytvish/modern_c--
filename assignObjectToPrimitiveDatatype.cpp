@@ -12,4 +12,5 @@ int main() {
     Test t(10);
     int y = t;
     cout<<y;
+    cout<<y;
 }
