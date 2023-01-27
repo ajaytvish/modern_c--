@@ -23,7 +23,7 @@ bool operator < (const A& lhs, const A& rhs) {return lhs.i < rhs.i; }
 int main()
 {
     std::set<A> Set;
-    //Set.insert(A(10));
+    Set.insert(A(10));
 /*     //OUTPUT
     constructor
     copy       
