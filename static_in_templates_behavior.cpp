@@ -30,7 +30,7 @@ public:
 };
 
 template<typename T>
-Test<T>::
+
 
 int main() {
     Test<int> st(10);
